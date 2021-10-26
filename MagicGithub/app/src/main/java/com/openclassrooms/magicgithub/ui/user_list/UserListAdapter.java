@@ -40,6 +40,7 @@ public class UserListAdapter extends RecyclerView.Adapter<ListUserViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ListUserViewHolder holder, int position) {
         holder.bind(users.get(position), callback);
+
     }
 
     @Override
